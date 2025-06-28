@@ -1,6 +1,6 @@
 - id: anycalib
   title: "AnyCalib: On-Manifold Learning for Model-Agnostic Single-View Camera Calibration"
-  venue: International Conference on Computer Vision (ICCV), 2025
+  venue: ICCV, 2025
   description: "Camera calibration from a single perspective/distorted/edited image with closed-form solutions for a wide range of camera models."
   # project_page:
   github: javrtg/AnyCalib
