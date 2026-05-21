@@ -6,12 +6,13 @@
   github: javrtg/AnyCalib
   arxiv: 2503.12701
   poster: "poster_anycalib.pdf"
+  demo: https://huggingface.co/spaces/javrtg/AnyCalib
   # video:
   image: anycalib.png
   # image_mouseover:
   authors:
+    - me
     - javi
-    - jcivera
 
 - id: c2p
   title: "From Correspondences to Pose: Non-minimal Certifiably Optimal Relative Pose without Disambiguation"
@@ -25,10 +26,10 @@
   image: c2p.png
   image_mouseover: c2p_hover.png
   authors:
+    - me
     - javi
-    - jcivera
   awards:
-    - "Highlight (top 2.8%)"
+    - "Highlight paper"
 
 - id: dac
   title: "DAC: Detector-Agnostic Spatial Covariances for Deep Local Features"
@@ -39,9 +40,9 @@
   poster: "poster_dac.pdf"
   image: "dac.png"
   authors:
-    - javi
+    - me
     - frederik
-    - jcivera
+    - javi
 
 - id: bsplines
   title: "Jacobian Computation for Cumulative B-Splines on SE(3) and Application to Continuous-Time Object Tracking"
@@ -50,5 +51,5 @@
   arxiv: 2201.10602
   image: bsplines.svg
   authors:
+    - me
     - javi
-    - jcivera

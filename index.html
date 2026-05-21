@@ -23,14 +23,15 @@ layout: null
     gtag('config', '{{ site.google_analytics }}');
   </script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
   <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
   <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script defer src="{{ '/js/fontawesome.all.min.js' | relative_url }}"></script>
+  <script defer src="{{ '/js/fontawesome.all.min.js?v=7.2.0' | relative_url }}"></script>
   <script src="{{ '/js/index.js' | relative_url }}"></script>
 </head>
 
@@ -118,9 +119,10 @@ layout: null
               Your browser does not support the video tag.
             </video>
             {% else %}
-              {% if publication.image_mouseover contains "jpg" or publication.image_mouseover contains "png" %}
-                <img class="mouseover-image" alt="{{ publication.title }}" src="./images/{{ publication.image_mouseover }}" style="display: none;" />
-              {% endif %}
+            {% if publication.image_mouseover contains "jpg" or publication.image_mouseover contains "png" %}
+            <img class="mouseover-image" alt="{{ publication.title }}" src="./images/{{ publication.image_mouseover }}"
+              style="display: none;" />
+            {% endif %}
             {% endif %}
             <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
           </div>
@@ -146,8 +148,8 @@ layout: null
             <div class="publication-venue">
               <span>{{ publication.venue }}</span>
               {% for award in publication.awards %}
-                <span class="publication-venue-emph">{{ award }}<span>
-              {% endfor %}
+              <span class="publication-venue-emph">{{ award }}<span>
+                  {% endfor %}
             </div>
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
@@ -158,7 +160,8 @@ layout: null
                 <span>Project Page</span>
               </a>
               {% endif %}
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
+              <a class="external-link button is-small is-ghost"
+                href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
               </a>
@@ -173,15 +176,23 @@ layout: null
               </a>
               {% endif %}
               {% if publication.poster %}
-              <a class="external-link button is-small is-ghost" href="{{ '/pdfs/' | relative_url }}{{ publication.poster }}">
+              <a class="external-link button is-small is-ghost"
+                href="{{ '/pdfs/' | relative_url }}{{ publication.poster }}">
                 <span class="icon"><i class="fa fas fa-sticky-note"></i></span>
                 <span>Poster</span>
               </a>
               {% endif %}
               {% if publication.video %}
-              <a class="external-link button is-small is-ghost" href="https://www.youtube.com/watch?v={{ publication.video }}">
+              <a class="external-link button is-small is-ghost"
+                href="https://www.youtube.com/watch?v={{ publication.video }}">
                 <span class="icon"><i class="fa fab fa-youtube"></i></span>
                 <span>Video</span>
+              </a>
+              {% endif %}
+              {% if publication.demo %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.demo }}">
+                <span class="icon"><i class="fab fa-hugging-face"></i></span>
+                <span>Demo</span>
               </a>
               {% endif %}
             </div>
