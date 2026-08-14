@@ -3,11 +3,54 @@ me:
   last_name: Tirado-Garín
   website: https://javrtg.github.io/
   is_me: true
+
 javi:
   first_name: Javier
   last_name: Civera
   website: https://scholar.google.es/citations?user=j_sMzokAAAAJ
+
 frederik:
   first_name: Frederik
   last_name: Warburg
   website: https://frederikwarburg.github.io/
+
+alan:
+  first_name: Alan
+  last_name: Paul
+  website: https://www.linkedin.com/in/alan-savio-paul
+
+alan:
+  first_name: Alan
+  last_name: S. Paul
+  website: https://www.linkedin.com/in/alan-savio-paul
+
+shuai:
+  first_name: Shuai
+  last_name: Chen
+  website: https://chenusc11.github.io/
+
+axel:
+  first_name: Axel
+  last_name: Barroso-Laguna
+  website: https://scholar.google.com/citations?user=m_SPRGUAAAAJ
+
+tommaso:
+  first_name: Tommaso
+  last_name: Cavallari
+  website: https://scholar.google.it/citations?user=r7osSm0AAAAJ
+
+daniyar:
+  first_name: Daniyar
+  last_name: Turmukhambetov
+  website: https://dantkz.github.io/
+
+victor:
+  first_name: Victor Adrian
+  last_name: Prisacariu
+  website: https://www.robots.ox.ac.uk/~victor/
+
+eric:
+  first_name: Eric
+  last_name: Brachmann
+  website: https://ebrach.github.io/
+

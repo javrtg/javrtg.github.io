@@ -1,3 +1,19 @@
+- id: autocompass
+  title: "AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels"
+  venue: ECCV, 2026
+  description: "Supervision techniques for training visual geo-localization models from  noisy GPS labels or SfM reconstructions, easier to obtain at scale."
+  project_page: TODO
+  image: autocompass.png
+  authors:
+    - me
+    - alan
+    - shuai
+    - axel
+    - tommaso
+    - daniyar
+    - victor
+    - eric
+
 - id: anycalib
   title: "AnyCalib: On-Manifold Learning for Model-Agnostic Single-View Camera Calibration"
   venue: ICCV, 2025
